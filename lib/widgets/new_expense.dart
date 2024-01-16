@@ -57,7 +57,6 @@ class _NewExpenseState extends State<NewExpense> {
       );
       return;
     }
-
     widget.onAddExpense(
       Expense(
         title: _titleController.text,
